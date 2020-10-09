@@ -13,7 +13,8 @@ django-crowd-auth==0.8.0</br>
 
 ### 说明
 因工作需要，为打通公司内部多平台的单点登录认证，实现一套账户登录多个系统，特搞了一个简单的支持oauth2和cas认证，并且以crowd为用户目录的服务。</br>
-此工具简单易用，几乎只需要简单的配置即可使用。
+此工具简单易用，几乎只需要简单的配置即可使用。</br>
+适用于使用jira、confluence、crowd全家桶的公司，并且希望crowd可以当做其他平台诸如grafana、jumpserver、jenkins等的身份认证中心。
 
 ### 配置
 python3安装Django步骤就省略了，相关的依赖按照requirement来就可以。</br>
